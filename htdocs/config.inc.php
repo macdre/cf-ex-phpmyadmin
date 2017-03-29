@@ -28,7 +28,7 @@ $service_blob = json_decode($_ENV['VCAP_SERVICES'], true);
 $mysql_services = array();
 foreach($service_blob as $service_provider => $service_list) {
     // looks for 'cleardb' or 'p-mysql' service
-    if ($service_provider === 'cleardb' || $service_provider === 'p-mysql' || $service_provider === 'compose-for-mysql') {
+    if ($service_provider === 'cleardb' || $service_provider === 'p-mysql' || $service_provider === 'compose-for-postgresql') {
         foreach($service_list as $mysql_service) {
             $mysql_services[] = $mysql_service;
         }
