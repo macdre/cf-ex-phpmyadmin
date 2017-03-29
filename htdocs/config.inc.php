@@ -60,8 +60,8 @@ for ($i = 1; $i <= count($mysql_services); $i++) {
 /*    $cfg['Servers'][$i]['host'] = $db['hostname'];
     $cfg['Servers'][$i]['port'] = $db['port'];
 */
-    $cfg['Servers'][$i]['host'] = 'sl-us-dal-9-portal.7.dblayer.com'
-    $cfg['Servers'][$i]['port'] = '21965'
+    $cfg['Servers'][$i]['host'] = 'sl-us-dal-9-portal.7.dblayer.com';
+    $cfg['Servers'][$i]['port'] = '21965';
 
 
     $cfg['Servers'][$i]['connect_type'] = 'tcp';
