@@ -63,6 +63,9 @@ for ($i = 1; $i <= count($mysql_services); $i++) {
     $cfg['Servers'][$i]['host'] = 'sl-us-dal-9-portal.7.dblayer.com';
     $cfg['Servers'][$i]['port'] = '21965';
 */
+    $cfg['Servers'][$i]['host'] = 'sl-us-dal-9-portal.5.dblayer.com';
+    $cfg['Servers'][$i]['port'] = '22084';
+
 
     $cfg['Servers'][$i]['connect_type'] = 'tcp';
     $cfg['Servers'][$i]['compress'] = false;
