@@ -57,8 +57,13 @@ for ($i = 1; $i <= count($mysql_services); $i++) {
     /* Authentication type */
     $cfg['Servers'][$i]['auth_type'] = 'cookie';
     /* Server parameters */
-    $cfg['Servers'][$i]['host'] = $db['hostname'];
+/*    $cfg['Servers'][$i]['host'] = $db['hostname'];
     $cfg['Servers'][$i]['port'] = $db['port'];
+*/
+    $cfg['Servers'][$i]['host'] = 'sl-us-dal-9-portal.7.dblayer.com'
+    $cfg['Servers'][$i]['port'] = '21965'
+
+
     $cfg['Servers'][$i]['connect_type'] = 'tcp';
     $cfg['Servers'][$i]['compress'] = false;
     $cfg['Servers'][$i]['extension'] = 'mysqli';
